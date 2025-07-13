@@ -1,0 +1,3 @@
+@echo off
+
+md Folder1 "Folder 2" Folder 3"
