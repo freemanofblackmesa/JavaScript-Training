@@ -1,19 +1,35 @@
-/* A variable is a container for storing data
-A variable behves as if it was the value that is contains
+/*
+    arithmetic expression is a combination of...
+    operands (values, variables, etc.)
+    operators (+ - * / %)
+    that can be evaluated to a value
+    ex y = x + 5;
+*/
 
-Two steps:
-1. Declaration (var, let, const)
-2. Assignment (= assignment operator)*/
+// let students = 20;
 
-let firstName = "Bro"; //strings
-let age = 21; //numbers
-let student = false; //booleans
+// students = students + 1;
+    // students += 1;
+// students = students - 1;
+    // students -= 1;
+// students = students * 1;
+    // students *= 1;
+// students = students / 1;
+    // students /= 1;
+// let extraStudents = students % 3;
+// students = students ** 2;
 
-console.log("Hello", firstName);
-console.log("You are", age, "years old!");
-console.log("It is", student,"that", firstName,"is a student.");
+// console.log(students);
+// console.log(extraStudents);
 
-// This is to display the code on a web page
-document.getElementById("p1").innerHTML = "Hello " + firstName;
-document.getElementById("p2").innerHTML = "You are " + age + "years old";
-document.getElementById("p3").innerHTML = "Enrolled: " + student;
+/*
+    opertor precedence
+    1. parenthesis ()
+    2. exponents
+    3. multiplication & division
+    4. addition & subtraction
+*/
+
+let result = 1 + 2 * (3 + 4);
+
+console.log(result);
