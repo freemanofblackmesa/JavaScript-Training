@@ -16,3 +16,6 @@
     cursor: pointer;
     transition: background-color 0.25s;
 }
+.button:hover {
+        background-color: hsl(214, 100%, 54%);
+}
