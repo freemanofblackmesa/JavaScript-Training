@@ -7,7 +7,7 @@ let count = 0;
 increaseBtn.onclick = function(){
     // the "++" increases the count by 1
     count++;
-    // "textContent" represents the increase of count
+    // "textContent" represents the change that has effect on "count"
     countlabel.textContent = count;
 }
 
