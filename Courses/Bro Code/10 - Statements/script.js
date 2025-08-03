@@ -1,5 +1,7 @@
 /* IF STATEMENTS = if a condition is true, execute some code if not, do something else */
 
+/* =================================== If-Else Example =================================*/
+
 // let age = 13;
 
 // if(age >= 18){

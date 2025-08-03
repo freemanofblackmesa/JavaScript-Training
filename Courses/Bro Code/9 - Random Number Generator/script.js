@@ -1,5 +1,3 @@
-// RANDOM NUMBER GENERATOR
-
 /* "Math.floor" rounds down and "Math.random() * max" randomly generates from 1 to max 
 the "+ min" is the minimum added*/
 
