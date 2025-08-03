@@ -1,5 +1,6 @@
 /* Type Conversion = change the datatype of a value to another (strings, numbers, booleans) */
 
+/* ================================== First Example ====================================== */
 
 let age = window.prompt("How old are you?");
 
@@ -11,7 +12,7 @@ age += 1;
 
 console.log("Happy Birthday! You are", age, " years old!");
 
-/* ==================================================================================== */
+/* ================================= Second Example ====================================== */
 
 // let x;
 // let y;
