@@ -1,10 +1,6 @@
-/* Set Constant parmeters minimum and maximum range of numbers and making sure that the answer is in between those two numbers, not more or less... */
-
 const minNum = 1;
 const maxNum = 100;
 const answer = Math.floor(Math.random() * (maxNum - minNum + 1)) + minNum;
-
-/* Set Vairables:  */
 
 let attempts = 0;
 let guess;
