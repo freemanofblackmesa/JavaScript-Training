@@ -13,9 +13,8 @@ function happyBirthday(username, age){
 
 happyBirthday("BroCode", 25);
 
-/* ===================================== Second Example =============================== */
-
-/* =========================== Basic Arithmatic ========================= */
+/* ==================================== Second Examples =============================== */
+/* =========================== Return Keyword ========================= */
 
 function add(x, y){
     return x + y;
@@ -41,9 +40,22 @@ console.log(divide(2, 3))
 
 function isEven(number){
 
+    if(number % 2 === 0){
+        return true;
+    }
+    else{
+        return false;
+    }
+}
+
+/* or */
+
+function isEven(number){
+
     return number % 2 === 0 ? true : false;
 }
 console.log(isEven())
+
 
 function isValidEmail(email){
     
