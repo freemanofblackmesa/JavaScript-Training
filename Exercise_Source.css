@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+}
+#roll {
+    margin-right: 20px;
+}
+.mybutton {
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 5em;
+    margin-bottom: 10px;
+    background-color: hsl(214, 100%, 75%);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.mybutton:hover {
+    background-color: hsl(214, 100%, 65%);
+}
+.mybutton:active {
+    background-color: hsl(214, 100%, 75%);
+}
+.mylabel {
+    font-size: 5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
